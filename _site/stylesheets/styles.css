@@ -84,7 +84,6 @@ th, td {
 
 dt {
   color:#444;
-  font-weight:700;
 }
 
 th {
@@ -163,6 +162,11 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
+}
+
+.resume {
+  width:770px;
+  float:center;
 }
 
 small {
@@ -252,4 +256,16 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+.text-center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.experience{
+	margin: 5px 0;
 }
