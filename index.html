@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="http://pre.medbill.me/v1/doctible.js"></script>
+		<script type="text/javascript">
+			$(function () {
+				$('#doctible-appointment').appointmentPopup(['janice-doan']);
+			});
+		</script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -20,7 +27,7 @@
 
 
         <p class="view"><a href="resume.html">View My Résumé</a></p>
-
+				<div id="doctible-appointment"></div>
       </header>
       <section>
         <h3>
