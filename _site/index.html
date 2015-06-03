@@ -45,10 +45,18 @@ I'm a technologist whose passions encompass all things web, mobile, startups and
 <p>Currently, I'm the technical Co-founder at Doctible. Responsible for all aspects of technology vision, software development and deployment, system administrations, and overall architecture design.</p><br/>
 
 <h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Recent work</h3>
+<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>* Recent Work: June 2015</h3>
+
+<p>On top of the doctor widget, we added more functionalities to support multi-provider widget. Here's an example:<p> 
+<div style="margin: 0 auto"><div id="doctible-appointment-location" style="text-align: center"></div></div><br/><br/>
+
+
+<br/>
+<h3>
+<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>* Recent Work: March 2015</h3>
 
 <p>I developed an appointment booking widget allows doctors to place it on their own websites. The widget enables patients to book an appointment with the doctor in just a few clicks. You can see a live example below:</p>
-<div style="margin: 0 auto"><div id="doctible-appointment" style="text-align: center"></div></div><br/><br/>
+<div style="margin: 0 auto"><div id="doctible-appointment-provider" style="text-align: center"></div></div><br/><br/>
 
 </section>
       <footer>
@@ -62,7 +70,8 @@ I'm a technologist whose passions encompass all things web, mobile, startups and
 	<script type="text/javascript" src="http://pre.medbill.me/v1/doctible.js"></script>
 	<script type="text/javascript">
 		$(function () {
-      $('#doctible-appointment').providersPopup(['walmart-vision-shawline']);
+      $('#doctible-appointment-location').providersPopup(['walmart-vision-shawline']);
+      $('#doctible-appointment-provider').appointmentPopup(['new-doctor1']);
 		});
 	</script>
 
