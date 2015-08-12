@@ -22,6 +22,10 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+<!-- start marketizator.com code -->
+<link rel="dns-prefetch" href="//app.marketizator.com"/>    
+<script type="text/javascript" src="//d2tgfbvjf3q6hn.cloudfront.net/js/79fdec.js"></script>
+<!-- end marketizator.com code -->
   </head>
   <body>
     <div class="wrapper">
@@ -75,13 +79,20 @@ I'm a technologist whose passions encompass all things web, mobile, startups and
     </div>
     <script src="javascripts/scale.fix.js"></script>
   </body>
+  <script src="//assets.pcrl.co/js/jstracker.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   
-	<script type="text/javascript" src="http://localhost:3000/v1/doctible.js"></script>
+	<script type="text/javascript" src="https://pre.medbill.me/v1/doctible.js"></script>
 	<script type="text/javascript">
 		$(function () {
-      // $('#doctible-appointment-location').providersPopup(['walmart-vision-shawline']);
-      $('#doctible-appointment-provider').appointmentPopup(['leon-hu']);
+      $('#doctible-appointment-location').providersPopup(['walmart-vision-shawline']);
+      $('#doctible-appointment-provider').doctiblePopup({
+        id: "janice-doan",
+        type: 'providers',
+        buttonColor: 'gray',
+        textColor: '#FFFFFF',
+        buttonText: 'Schedule an Appointment'
+      });
 		});
 	</script>
   <script>
