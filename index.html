@@ -59,25 +59,13 @@ Leon's a technologist whose passions encompass all things web, mobile, startups 
 
 <p>On top of the doctor widget, we added more functionalities to support multi-provider widget. Here's an example:<p> 
 <div style="margin: 0 auto"><div id="doctible-appointment-location" style="text-align: center"></div></div><br/><br/>
+
+
 <br/>
-
-
-<h3>Vertical</h3>
-<div style="margin: 0 auto"><div id="doctible-review-widget" style="text-align: center"></div></div><br/><br/>
-<br/>
-<h3>Horizontal</h3>
-<div style="margin: 0 auto"><div id="doctible-review-widget-horizontal" style="text-align: center"></div></div><br/><br/>
-<br/>
-<h3>Full</h3>
-<div style="margin: 0 auto"><div id="doctible-review-widget-full" style="text-align: center"></div></div><br/><br/>
-<br/>
-
-
-
 <h3>
 <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>* Recent Work: March 2015</h3>
 
-<p>We developed an appointment booking widget allows doctors to place it on their own websites. The widget enables patients to book an appointment with the doctor in just a few clicks. You can see a live example below:</p>
+<p>I developed an appointment booking widget allows doctors to place it on their own websites. The widget enables patients to book an appointment with the doctor in just a few clicks. You can see a live example below:</p>
 <div style="margin: 0 auto"><div id="doctible-appointment-provider" style="text-align: center"></div></div><br/><br/>
 
 
@@ -95,21 +83,9 @@ Leon's a technologist whose passions encompass all things web, mobile, startups 
   <script src="//assets.pcrl.co/js/jstracker.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   
-	<script type="text/javascript" src="http://pre.medbill.me/v1/doctible.js"></script>
+	<script type="text/javascript" src="https://pre.medbill.me/v1/doctible.js"></script>
 	<script type="text/javascript">
 		$(function () {
-      $('#doctible-review-widget').reviewWidget({
-        format: 'vertical',
-        id: 'imaging-encinitas'
-      });
-      $('#doctible-review-widget-horizontal').reviewWidget({
-        format: 'horizontal',
-        id: 'imaging-encinitas'
-      });
-      $('#doctible-review-widget-full').reviewWidget({
-        format: 'full',
-        id: 'imaging-encinitas'
-      });
       $('#doctible-appointment-location').providersPopup(['walmart-vision-shawline']);
       $('#doctible-appointment-provider').doctiblePopup({
         id: "leon-hu",
@@ -120,5 +96,11 @@ Leon's a technologist whose passions encompass all things web, mobile, startups 
       });
 		});
 	</script>
+  <script>
+      var _grxdn = "lipitor";
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src="//s3.amazonaws.com/assets.goodrx.com/static/widgets/fair.min.js";
+          s.parentNode.insertBefore(g,s)}(document,"script"));
+  </script>
 <!-- This site is converting visitors into subscribers and customers with OptinMonster - http://optinmonster.com --><div id="om-xv4x4ghlylpguno8-holder"></div><script>var xv4x4ghlylpguno8,xv4x4ghlylpguno8_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){xv4x4ghlylpguno8_poll(function(){if(window['om_loaded']){if(!xv4x4ghlylpguno8){xv4x4ghlylpguno8=new OptinMonsterApp();return xv4x4ghlylpguno8.init({u:"9538.190495",staging:0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optinmonster.com/app/js/api.min.js",o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;xv4x4ghlylpguno8=new OptinMonsterApp();xv4x4ghlylpguno8.init({u:"9538.190495",staging:0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster -->
 </html>
